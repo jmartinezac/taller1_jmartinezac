@@ -64,7 +64,7 @@
 }
 .navbarCSS {
   width: 1000px;
-  padding-inline: 1rem;
+  padding-inline: 2rem;
   gap: 1rem;
   align-items: flex-start;
   margin: 0 auto;
@@ -83,18 +83,19 @@ body {
 .Buscar {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0.5rem;
   width: 1000px;
-  padding: 2rem;
+  padding-top: 1.5rem;
+  padding-inline: 2rem;
   margin: 0 auto;
   justify-content: flex-end;
 }
 .buttonBuscar {
-  background-color: yellow;
+  background-color: #ffcc4e;
   border-radius: 0.3rem;
   font-weight: 500;
   font-size: 1rem;
-  padding: 0, 0.75rem, 0, 0.75rem;
+  padding-inline: 1rem;
   align-items: center;
   text-align: center;
   cursor: pointer;
@@ -103,9 +104,7 @@ body {
   border-radius: 0.5rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
 }
-.labelBuscar {
-  font-weight: 600;
-}
+
 main {
   padding: 2rem;
   width: 1000px;
@@ -207,74 +206,3 @@ main {
   padding: 0.25rem 0.7rem;
   border-radius: 100vmax;
 }
-/* .img-poke {
-  padding-inline: 1rem;
-  display: flex;
-  justify-content: center;
-}
-
-.img-poke img {
-  width: 100%;
-  max-width: 8rem;
-}
-.card {
-  border-radius: 1rem;
-  background-color: white;
-  box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, 0.25);
-  padding-block: 1rem;
-  text-transform: uppercase;
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
-}
-
-.idPokemon {
-  position: absolute;
-  bottom: 6rem;
-  left: 50%;
-  transform: translate(-50%);
-  font-size: 10em;
-  font-weight: 900;
-  color: #f8f6f6;
-  z-index: -2;
-}
-
-p {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 5rem;
-  padding-inline: 1rem;
-  align-items: center;
-  text-align: center;
-}
-
-.tipoElectric {
-  background-color: red;
-}
-.tipoFlighting {
-  background-color: yellow;
-}
-.tipo {
-  border-radius: 100vmax;
-  padding: 0.25rem 0.5rem;
-}
-.tipos {
-  border-radius: 100vmax;
-}
-.stat {
-  text-align: center;
-}
-.nombrePokemon {
-  display: flex;
-  align-items: center;
-  column-gap: 2rem;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.idPokemonFront {
-  background-color: #f8f6f6;
-  border-radius: 100vmax;
-} */
