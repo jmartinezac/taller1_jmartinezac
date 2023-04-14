@@ -62,44 +62,24 @@
   background-color: #272343;
   color: white;
 }
-
+.navbarCSS {
+  width: 1000px;
+  padding-inline: 1rem;
+  gap: 1rem;
+  align-items: flex-start;
+  margin: 0 auto;
+}
 body {
   min-height: 100vmax;
   background-color: #f8f6f6;
 }
-/* header {
-  padding-block: 1rem;
-}
-
-nav {
-  display: flex;
-  flex-direction: column;
+.divPoke {
+  justify-content: end;
   gap: 1rem;
-  align-items: flex-start;
-  padding-inline: 2rem;
-  width: 1000px;
-  margin: 0 auto;
 }
-.nav-list {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 5rem;
+.imgPoke {
+  width: 150px;
 }
-.btns-header {
-  background-color: gray;
-  padding: 5rem;
-  border-radius: 100vmax;
-  cursor: pointer;
-  text-transform: uppercase;
-  font-weight: 600;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
-  transition: 0.2s;
-}
-.btns-header:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.25);
-} */
 .Buscar {
   display: flex;
   flex-wrap: wrap;
