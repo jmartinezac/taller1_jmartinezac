@@ -1,9 +1,5 @@
-// Función para realizar la consulta de la API
 const cardNombre = document.getElementById("card-nombre");
-//const cardPokemon = document.getElementById("card-pokemon");
-//const pokemonName = document.getElementById("pokemon-name");
 let bodyCards = document.getElementById("listaTodos");
-//const namePoke = document.getElementById("pokemon-name").value;
 
 const url = `https://pokeapi.co/api/v2/pokemon/`;
 
@@ -47,45 +43,14 @@ async function consultarPokemon() {
     </div>
     <div class="pokemonInfo">
       <div class="nombreContenedor">
-        <p class="pokemonId">#${pokemon.id}</p>
         <h2 class="pokemonNombre">${pokemon.name}</h2>
       </div>
       <div class="pokemonTipos">
         ${tiposs}
       </div>
-      <div class="pokemonStats">
-        <p class="stat">${pokemon.height}M</p>
-        <p class="stat">${pokemon.weight}KG</p>
-      </div>
     </div>
     </div>`;
-    const { stast, types } = pokemon;
+    //const { stast, types } = pokemon;
     bodyCards.appendChild(div);
   }
-}
-
-{
-  /* <div class="pokemon">
-<p class="pokemonIdBig">#25</p>
-<div class="pokemonImagen">
-  <img
-    src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
-    alt=""
-  />
-</div>
-<div class="pokemonInfo">
-  <div class="nombreContenedor">
-    <p class="pokemonId">#25</p>
-    <h2 class="pokemonNombre">Pikachu</h2>
-  </div>
-  <div class="pokemonTipos">
-    <p class="Electric tipo">Electric</p>
-    <p class="Fighting tipo">Fighting</p>
-  </div>
-  <div class="pokemonStats">
-    <p class="stat">4M</p>
-    <p class="stat">60KG</p>
-  </div>
-</div>
-</div> */
 }
