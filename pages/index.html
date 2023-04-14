@@ -14,11 +14,47 @@
     <link rel="stylesheet" href="../src/css/index.css" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Informacion</a>
+            <a class="nav-link" href="#">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </nav>
     <div class="container">
       <div class="row">
-        <h1 class="m-5 d-flex justify-content-center col-md-12">
+        <h1 class="d-flex justify-content-center col-md-12">
           Consulta de Pokemon
         </h1>
+      </div>
+      <div class="Buscar">
+        <div class="divLabelBuscar">
+          <label for="inputBuscar" class="labelBuscar">Buscar Pokemon</label>
+        </div>
+        <div class="divInputBuscar">
+          <input type="text" class="inputBuscar" id="inputBuscar" />
+        </div>
+        <div class="divButtonBuscar">
+          <button class="buttonBuscar" type="submit" id="buttonBuscar">
+            Buscar
+          </button>
+        </div>
       </div>
     </div>
     <main>
